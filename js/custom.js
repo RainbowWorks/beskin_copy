@@ -29,7 +29,7 @@ $(function () {
         let sct = $(window).scrollTop();
         console.log(sct)
 
-        if (sct > 100) {
+        if (sct > 200) {
             $('.to_top').addClass('on')
         } else {
             $('.to_top').removeClass('on')
