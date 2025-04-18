@@ -129,7 +129,7 @@
 }
 
 .main_visual .main_visual_slide .itm01 {
-    background: url(../images/visual01.png) no-repeat center center/cover;
+    background: url(../images/visual06.jpg) no-repeat center center/cover;
 }
 
 .main_visual .main_visual_slide .itm02 {
@@ -189,11 +189,11 @@
 }
 
 .main_visual .arrows .prev {
-    left: 56px;
+    left: 0px;
 }
 
 .main_visual .arrows .next {
-    right: 56px;
+    right: 0px;
 }
 
 .main_visual .wheel {
@@ -243,6 +243,24 @@
     100% {
         transform: translate(-50%, 4px);
     }
+}
+
+.main_best .inner .itm .img_box {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    border-radius: 20px;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_best .inner .itm .img_box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
 }
 
 .main_best .title h2 {
@@ -315,6 +333,8 @@
     position: relative;
 }
 
+
+
 .main_product .title h2 {
     font-size: 40px;
     color: #ff5484;
@@ -340,6 +360,15 @@
 
 .main_product .itm img {
     background: #f9f9f9;
+}
+
+.main_product .main_product_slide .itm .img_box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20px;
+
 }
 
 .main_product .itm p {
@@ -464,7 +493,25 @@
 }
 
 .main_content .tab_content .con img {
-    background: #ddd;
+    background: #fff;
+}
+
+.main_content .tab_content .con .itm .img_box {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_content .tab_content .con .itm .img_box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20px;
+    border: 1px solid #ddd;
 }
 
 .main_content .tab_content .con p {
@@ -472,15 +519,23 @@
     text-align: center;
 }
 
+
+
 .footer {
-    padding: 32px 0;
+    padding: 40px 0;
     background: #1c1b18;
 }
 
 .footer .sns {
+
     display: flex;
     justify-content: center;
-    gap: 16px;
+    gap: 32px;
+}
+
+.footer .sns img {
+    width: 32px;
+    height: 32px;
 }
 
 .footer .customer {
@@ -488,7 +543,7 @@
     justify-content: center;
     gap: 40px;
 
-    margin-top: 24px;
+    margin-top: 40px;
 }
 
 .footer .customer li {
@@ -507,7 +562,7 @@
 }
 
 .footer .tel {
-    margin-top: 16px;
+    margin-top: 32px;
     color: #fff;
     text-align: center;
 
@@ -539,6 +594,7 @@
 .footer #lnk {
     background: #fff;
     height: 40px;
+    line-height: 40px;
     padding: 0 16px;
     color: #1c1b18;
     font-size: 16px;
